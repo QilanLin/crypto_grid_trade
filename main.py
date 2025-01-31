@@ -14,6 +14,7 @@ if __name__ == "__main__":
                 lower, upper = range_tuple
                 subject = f"{config.SYMBOL} 价格预警"
                 message = f"{config.SYMBOL} 当前价格为 {price}，已进入预设的价格区间 ({lower}, {upper})。"
-                send_email(subject, message)
+                # send_email(subject, message)
+                print(subject, message)
                 break
         time.sleep(60)  # 每分钟检查一次价格
