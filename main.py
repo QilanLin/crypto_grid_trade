@@ -16,5 +16,4 @@ if __name__ == "__main__":
                 message = f"{config.SYMBOL} 当前价格为 {price}，已进入预设的价格区间 ({lower}, {upper})。"
                 # send_email(subject, message)
                 print(subject, message)
-                break
-        time.sleep(10)  # 每分钟检查一次价格
+        time.sleep(10)  # 每10秒检查一次价格
