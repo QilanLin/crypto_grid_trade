@@ -17,4 +17,4 @@ if __name__ == "__main__":
                 # send_email(subject, message)
                 print(subject, message)
                 break
-        time.sleep(60)  # 每分钟检查一次价格
+        time.sleep(10)  # 每分钟检查一次价格

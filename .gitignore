@@ -1,0 +1,34 @@
+# Python编译文件
+*.pyc
+*.pyo
+__pycache__/
+
+# 虚拟环境目录
+env/
+venv/
+
+# 系统文件
+.DS_Store
+Thumbs.db
+
+# IDE/编辑器设置
+.idea/
+.vscode/
+
+# 日志和临时文件
+*.log
+*.tmp
+*.swp
+
+# 配置文件（如果包含敏感信息）
+config.ini
+config.yaml
+*.env
+
+# 构建文件
+build/
+dist/
+*.egg-info/
+
+# 本地测试数据库
+db.sqlite3
